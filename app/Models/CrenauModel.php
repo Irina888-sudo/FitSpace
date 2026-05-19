@@ -4,15 +4,15 @@ namespace App\Models;
 
 use CodeIgniter\Model;
 
-class ReservationModel extends Model
+class CrenauModel extends Model
 {
-    protected $table            = 'reservations';
+    protected $table            = 'crenaus';
     protected $primaryKey       = 'id';
     protected $useAutoIncrement = true;
     protected $returnType       = 'array';
     protected $useSoftDeletes   = false;
     protected $protectFields    = true;
-    protected $allowedFields    = ['user_id', 'creneau_id', 'statut', 'created_at'];
+    protected $allowedFields    = ['ressource_id', 'date_debut', 'date_fin', 'places_dispo', 'actif'];
 
     protected bool $allowEmptyInserts = false;
     protected bool $updateOnlyChanged = true;

@@ -4,15 +4,15 @@ namespace App\Models;
 
 use CodeIgniter\Model;
 
-class ReservationModel extends Model
+class RessourceModel extends Model
 {
-    protected $table            = 'reservations';
+    protected $table            = 'ressources';
     protected $primaryKey       = 'id';
     protected $useAutoIncrement = true;
     protected $returnType       = 'array';
     protected $useSoftDeletes   = false;
     protected $protectFields    = true;
-    protected $allowedFields    = ['user_id', 'creneau_id', 'statut', 'created_at'];
+    protected $allowedFields    = ['nom', 'type', 'capacite', 'description'];
 
     protected bool $allowEmptyInserts = false;
     protected bool $updateOnlyChanged = true;
