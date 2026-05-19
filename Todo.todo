@@ -1,0 +1,106 @@
+✅ Fonctionnalités MINIMUM
+Obligatoire
+Connexion
+Liste des ressources
+Liste des créneaux
+Réserver un créneau
+Voir ses réservations
+Admin
+Ajouter ressource
+Ajouter créneau
+
+
+👨‍💻 Personne 1 — Backend (2h)
+0 → 20 min
+Installation <OK>
+Créer projet CI4 <OK>
+Configurer SQLite3 <OK>
+Créer DB <OK>
+Créer tables <OK>
+users <OK>
+ressources <OK>
+creneaux <OK>
+reservations <OK>
+
+
+20 → 40 min
+Authentification SIMPLE
+
+Créer :
+Login
+Logout
+
+PAS d’inscription si vous manquez de temps.
+
+Ajouter directement les utilisateurs dans SQLite.
+
+Compte admin
+admin@gmail.com
+1234
+40 → 70 min
+CRUD Ressources
+
+Admin peut :
+
+Ajouter ressource
+Voir ressources
+
+PAS modifier/supprimer si manque de temps.
+
+70 → 100 min
+CRUD Créneaux
+
+Admin peut :
+
+Ajouter créneau
+Voir créneaux
+100 → 120 min
+Réservation
+
+Client peut :
+
+Voir créneaux
+Réserver
+🎨 Personne 2 — Frontend (2h)
+0 → 30 min
+Créer layout général
+
+Pages :
+
+login
+dashboard
+liste ressources
+liste créneaux
+
+Faire simple :
+
+navbar
+cards
+boutons
+
+Utiliser :
+
+Bootstrap CDN
+30 → 60 min
+Dashboard Admin
+
+Sections :
+
+Ajouter ressource
+Ajouter créneau
+60 → 90 min
+Dashboard Client
+
+Afficher :
+
+créneaux disponibles
+bouton réserver
+90 → 120 min
+Amélioration UI
+
+Ajouter :
+
+couleurs
+responsive
+hover
+alert succès
