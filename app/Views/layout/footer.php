@@ -1,12 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <link rel="stylesheet" href="<?= base_url('/css/style.css') ?>">
-    <title>Document</title>
-</head>
-<body>
-    <div class="footer-public">FitSpace &copy; 2025 — Projet CodeIgniter 4 · Tous droits <span>réservés</span></div>
+</div><!-- fin page-content -->
+  </div><!-- fin main-content -->
+</div><!-- fin app-wrapper -->
+
+<div class="footer-public">FitSpace &copy; 2026 — Projet CodeIgniter 4 · Tous droits <span>ETU4016-ETU4110</span></div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
