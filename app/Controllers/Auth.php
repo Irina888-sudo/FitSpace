@@ -36,4 +36,8 @@ class Auth extends BaseController
         $model->insert($data);
         return redirect()->to('/login');
     }
+
+     public function index() {
+        return view('index');
+     }
 }
