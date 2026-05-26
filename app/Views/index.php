@@ -1,5 +1,15 @@
+<?php echo view('layout/header_public'); ?>
 
-  <!-- HERO -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+ <!-- HERO -->
   <div class="hero">
     <div class="hero-eyebrow"><i class="bi bi-lightning-charge-fill"></i> Réservation en ligne</div>
     <h1>Votre espace bien-être,<br><em>réservé en 30 secondes.</em></h1>
@@ -20,5 +30,7 @@
 
 </section>
 
+  <?php echo view('layout/footer'); ?>
 </body>
 </html>
+ 
